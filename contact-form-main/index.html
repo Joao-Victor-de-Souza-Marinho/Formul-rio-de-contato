@@ -7,7 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Contact form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -47,14 +47,18 @@
         This field is required
 
       </div>
+      <h4>Querry Type</h4>
       <div class="campoDeselecao">
-        <h4>Querry Type</h4>
-        <input type="checkbox" name="">
-        <label for="">General Enquiry</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Support Request</label>
-        plase select a querry type
 
+        <div class="caixa">
+          <input type="checkbox" name="">
+          <label for="">General Enquiry</label>
+        </div>
+
+        <div class="caixa">
+          <input type="checkbox" name="" id="">
+          <label for="">Support Request</label>
+        </div>
       </div>
 
       <div class="campoMensagem">
@@ -63,12 +67,12 @@
         this field is required
 
       </div>
-      <input type="checkbox">
-      <label for="">i consent to being contacted by the team </label>
-      to submit this form, please consent to being contacted
+      <div class="termos">
+        <input type="checkbox">
+        <label for="">i consent to being contacted by the team </label>
+      </div>
       <button>submit</button>
-      Message Sent
-      Thanks for completing the form. We'll be in touch soon!
+
     </form>
   </section>
   <div class="attribution">
